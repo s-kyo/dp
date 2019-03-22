@@ -55,7 +55,7 @@ def support(data, i, j, d):
     return ((data[i] & (1 << j)) >> j)
 
 if __name__ == "__main__":
-    n = 100
+    n = 1000
     d = 20
     p = 0.5
     q = 1/(1+math.exp(1))
